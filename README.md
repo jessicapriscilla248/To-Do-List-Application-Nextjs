@@ -103,7 +103,7 @@ npx prisma studio
 ## 📂 Struktur Project
 
 ```
-project_to_do_list_Nextjs/
+To-Do-List-Application-Nextjs/
 ├── app/
 │   ├── api/
 │   │   └── tasks/
@@ -183,39 +183,3 @@ curl -X DELETE http://localhost:3000/api/tasks?id=1
 - **Update Button** - Toggle status selesai
 - **Delete Button** - Soft delete tugas
 
-## 🌐 Deployment
-
-Aplikasi ini dapat di-deploy ke berbagai platform:
-
-### Deploy ke Vercel (Recommended)
-```bash
-npm i -g vercel
-vercel
-```
-
-### Deploy ke Platform Lain
-Aplikasi Next.js ini kompatibel dengan:
-- Heroku
-- Railway
-- Render
-- DigitalOcean
-
-Pastikan untuk:
-1. Setup environment variables di platform deployment
-2. Jalankan migration database
-3. Build aplikasi sebelum deployment
-
-## 📚 Belajar Lebih Lanjut
-
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Prisma Documentation](https://www.prisma.io/docs)
-- [Tailwind CSS](https://tailwindcss.com)
-- [React Documentation](https://react.dev)
-
-## 📄 Lisensi
-
-Project ini adalah bagian dari Technical Test AGIT.
-
-## 👨‍💻 Author
-
-Jessica - Project Technical Test AGIT
